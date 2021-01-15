@@ -4,7 +4,7 @@ let third = second;
 let fourth = third;
 let fifth = fourth;
 
-let capital = "London";
-let country = "GB";
+let capital = "Bishkek";
+let country = "KG";
 console.log (fifth);
 console.log (capital +  " is a capital of " + country);
