@@ -15,4 +15,7 @@ let unit = "meters";
 subject = "Weight";
 unit = "gram";
 
+subject = "Height";
+unit = "centimeter";
+
 console.log (subject + " is measured in " + unit);
