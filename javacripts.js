@@ -19,3 +19,10 @@ subject = "Height";
 unit = "centimeter";
 
 console.log (subject + " is measured in " + unit);
+
+let title = "Dark Tower";
+let author = "SK";
+
+title = "Garry Potter";
+author = "JK Rowling";
+console.log ("My favourite book is " + title + " by " + author);
