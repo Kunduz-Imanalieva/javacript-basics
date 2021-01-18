@@ -48,10 +48,17 @@ console.log (`My favourite movie is "${movie}"`);
 // console.log (`The sum of two number is equal to ${sum}`);
 
 
-let c = +prompt ("What is C?");
-let d = +prompt ("What is D?");
-let e = c*d;
-console.log (`C multiplied by D is equal to ${e}`);
+// let c = +prompt ("What is C?");
+// let d = +prompt ("What is D?");
+// let e = c*d;
+// console.log (`C multiplied by D is equal to ${e}`);
+
+
+
+let s = +prompt ("What is S(Distance)?");
+let t = +prompt ("What is t(Time)?");
+let v = s/t;
+console.log (`The speed is equal to ${v}`);
 
 
 
