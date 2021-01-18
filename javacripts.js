@@ -26,3 +26,32 @@ let author = "SK";
 title = "Garry Potter";
 author = "JK Rowling";
 console.log ("My favourite book is " + title + " by " + author);
+
+console.log ('My favourite song is \"Yesterday\" by Beatles');
+console.log ('I\'m the best!');
+
+let artist = "Beatles";
+// console.log ("I\'m the fan of ' +   artist  +  "!" );
+console.log (`I'm the fan of "`+ artist + `"!`);
+
+let movie = "Terminator";
+console.log (`My favourite movie is "` + movie +`" `);
+console.log (`My favourite movie is "${movie}"`);
+
+
+// let firstName = prompt('What is your name?');
+// console.log (`Your name is ${firstName}`);
+
+// let a = +prompt ("What is A?");
+// let b = +prompt ("What is B?");
+// let sum = a+b;
+// console.log (`The sum of two number is equal to ${sum}`);
+
+
+let c = +prompt ("What is C?");
+let d = +prompt ("What is D?");
+let e = c*d;
+console.log (`C multiplied by D is equal to ${e}`);
+
+
+
