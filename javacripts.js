@@ -55,10 +55,19 @@ console.log (`My favourite movie is "${movie}"`);
 
 
 
-let s = +prompt ("What is S(Distance)?");
-let t = +prompt ("What is t(Time)?");
-let v = s/t;
-console.log (`The speed is equal to ${v}`);
+// first example
+// let s = +prompt ("What is S(Distance)?");
+// let t = +prompt ("What is t(Time)?");
+// let v = s/t;
+// console.log (`The speed is equal to ${v}`);
+
+
+// second example
+// let a = +prompt ("What is the lenght of the square?");
+// let s = a*a;
+// console.log (`The area of the square is equal to ${s}`);
+
+
 
 
 
