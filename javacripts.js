@@ -148,69 +148,178 @@
 
 
 
-let points = 0;
+// let points = 0;
 
-// question 1
-let answer1 = prompt("How many tenses are there in English?");
-if (answer1 === "12") {
-    points = points + 10;
-}
+// // question 1
+// let answer1 = prompt("How many tenses are there in English?");
+// if (answer1 === "12") {
+//     points = points + 10;
+// }
 
-// question 2
-let answer2 = confirm("Is can/could/may/might modal verbs?");
-if (answer2 === true)  {
-    points = points + 10;
-}
+// // question 2
+// let answer2 = confirm("Is can/could/may/might modal verbs?");
+// if (answer2 === true)  {
+//     points = points + 10;
+// }
 
-// question 3
-let answer3 = prompt("What is the past form of do?");
-if (answer3 === "did") {
-    points = points + 10;
-}
+// // question 3
+// let answer3 = prompt("What is the past form of do?");
+// if (answer3 === "did") {
+//     points = points + 10;
+// }
 
-// question 4
-let answer4 = confirm("Is this sentence is right? - Yesterday, I do it.");
-if (answer4 === false)  {
-    points = points + 10;
-}
+// // question 4
+// let answer4 = confirm("Is this sentence is right? - Yesterday, I do it.");
+// if (answer4 === false)  {
+//     points = points + 10;
+// }
 
-// question 5
-let answer5 = prompt("I've been waiting for this trip for a long time - Which tense is this sentence?");
-if (answer5 === "present perfect continuous") {
-    points = points + 10;
-}
+// // question 5
+// let answer5 = prompt("I've been waiting for this trip for a long time - Which tense is this sentence?");
+// if (answer5 === "present perfect continuous") {
+//     points = points + 10;
+// }
 
-// question 6
-let answer6 = prompt("What is the past form of begin?");
-if (answer6 === "began") {
-    points = points + 10;
-}
+// // question 6
+// let answer6 = prompt("What is the past form of begin?");
+// if (answer6 === "began") {
+//     points = points + 10;
+// }
 
-// question 7
-let answer7 = prompt("How many states are there in the USA?");
-if (answer7 === "50") {
-    points = points + 10;
-}
-
-
-// question 8
-let answer8 = prompt("How many conditionals are there in English?");
-if (answer8 === "5") {
-    points = points + 10;
-}
-
-// question 9
-let answer9 = confirm("Is this sentence is right? - I will go to the hospital tomorrow.");
-if (answer9 === true)  {
-    points = points + 10;
-}
-
-// question 10
-let answer10 = prompt("What is the past form of eat?");
-if (answer10 === "ate") {
-    points = points + 10;
-}
+// // question 7
+// let answer7 = prompt("How many states are there in the USA?");
+// if (answer7 === "50") {
+//     points = points + 10;
+// }
 
 
+// // question 8
+// let answer8 = prompt("How many conditionals are there in English?");
+// if (answer8 === "5") {
+//     points = points + 10;
+// }
 
-alert ("you've earned " + points + " points")
+// // question 9
+// let answer9 = confirm("Is this sentence is right? - I will go to the hospital tomorrow.");
+// if (answer9 === true)  {
+//     points = points + 10;
+// }
+
+// // question 10
+// let answer10 = prompt("What is the past form of eat?");
+// if (answer10 === "ate") {
+//     points = points + 10;
+// }
+
+
+
+// alert ("you've earned " + points + " points")
+
+// let answer = prompt("Which country's capital is Bishkek?");
+// if (answer === "Kyrgyzstan" || answer == "KG") {
+//    console.log ("True");
+// }
+// else {
+//     console.log ("False");
+// }
+
+
+// let answer1 = prompt("What is the measure of temperature?");
+// if (answer1 == "selsium"){
+//     console.log ("true");
+// }
+// else {
+//     console.log ("false");
+// }
+
+
+// let answer2 = prompt("What is the measure of distance?");
+// if (answer2 == "km"){
+//     console.log ("true");
+// }
+// else {
+//     console.log ("false");
+// }
+
+
+// let answer3 = prompt("What is the measure of weight?");
+// if (answer3 == "kg"){
+//     console.log ("true");
+// }
+// else {
+//     console.log ("false");
+// }
+
+
+// let answer4 = prompt("What is the measure of unit?");
+// let answer5 = prompt("What is the measure of temperature?");
+
+// if (answer4 == "k" ) {
+//    if (answer5 == 273){
+//         console.log ("true");
+//    }
+//    else {
+//     console.log ("false");
+// }
+// }
+
+
+// else if (answer4 == "c") {
+//     if (answer5 == 0) {
+//         console.log ("true");
+//     }
+//     else {
+//         console.log ("false");
+//     }
+// }
+
+
+// else if (answer4 == "f" ) {
+//     if (answer5 == 32){
+//          console.log ("true");
+//     }
+//     else {
+//      console.log ("false");
+//  }
+//  }
+ 
+// else {
+//     console.log ("Please use k, f or c!")
+// }
+
+
+
+
+
+
+// let answer6 = prompt("What is the speed of sound?");
+// let answer7 = prompt("What is the measure of speed?")
+
+// if (answer6 == "km/h" ) {
+//    if (answer7 == "1234") {      
+//     console.log ("true");
+// }
+// else {
+//      console.log ("false");
+//  }
+// }
+
+// if (answer6 == "m/h" ) {
+//     if (answer7 == "343") {
+//     console.log ("true");
+// }
+// else {
+// console.log ("false");
+// }
+// }
+
+
+// if (answer6 == "m/s" ) {
+//     if (answer7 == "767"){
+//     console.log ("true");
+// }
+// else{
+// console.log ("false");
+// }
+// }
+
