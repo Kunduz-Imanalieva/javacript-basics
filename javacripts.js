@@ -224,68 +224,51 @@
 // }
 
 
-// let answer1 = prompt("What is the measure of temperature?");
-// if (answer1 == "selsium"){
-//     console.log ("true");
-// }
-// else {
-//     console.log ("false");
-// }
+let answer1 = prompt("What is the measure of temperature?");
+if (answer1 == "celsius" || answer1 == "fahrenheit" || answer1 == "kelvin"){
+    console.log ("true");
+}
+else {
+    console.log ("false");
+}
 
 
-// let answer2 = prompt("What is the measure of distance?");
-// if (answer2 == "km"){
-//     console.log ("true");
-// }
-// else {
-//     console.log ("false");
-// }
+let answer2 = prompt("What is the measure of distance?");
+if (answer2 == "km" || answer2 == "meter"){
+    console.log ("true");
+}
+else {
+    console.log ("false");
+}
 
 
-// let answer3 = prompt("What is the measure of weight?");
-// if (answer3 == "kg"){
-//     console.log ("true");
-// }
-// else {
-//     console.log ("false");
-// }
+let answer3 = prompt("What is the measure of weight?");
+if (answer3 == "kilogram" || answer3 == "pound"){
+    console.log ("true");
+}
+else {
+    console.log ("false");
+}
 
 
-// let answer4 = prompt("What is the measure of unit?");
-// let answer5 = prompt("What is the measure of temperature?");
+let answer4 = prompt("What is the measure of unit?");
+let answer5 = prompt("What is the measure of temperature?");
 
-// if (answer4 == "k" ) {
-//    if (answer5 == 273){
-//         console.log ("true");
-//    }
-//    else {
-//     console.log ("false");
-// }
-// }
+if (answer4 == "k" && answer5 == 273 ) {
+        console.log ("true");
+}
 
+else if (answer4 == "c" && answer5 == 0) {
+        console.log ("true");
+}
 
-// else if (answer4 == "c") {
-//     if (answer5 == 0) {
-//         console.log ("true");
-//     }
-//     else {
-//         console.log ("false");
-//     }
-// }
-
-
-// else if (answer4 == "f" ) {
-//     if (answer5 == 32){
-//          console.log ("true");
-//     }
-//     else {
-//      console.log ("false");
-//  }
-//  }
+else if (answer4 == "f" && answer5 == 32) {
+         console.log ("true");
+}
+    else {
+     console.log ("false");
+ }
  
-// else {
-//     console.log ("Please use k, f or c!")
-// }
 
 
 
