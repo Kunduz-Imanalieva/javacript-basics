@@ -270,6 +270,30 @@ else if (answer4 == "f" && answer5 == 32) {
  }
  
 
+ let year = prompt ("In which language do you want to know New Year");
+ switch (year) {
+     case "Russian":
+       console.log ("Новый Год");
+       break;
+
+       case "English":
+       console.log ("New Year");
+       break;
+
+       case "Spanish":
+       console.log ("Año nuevo");
+       break;
+
+       case "Dutch":
+       console.log ("Nieuwjaar");
+       break;
+
+       default:
+           console.log ("Don't know this country!")
+           break;
+
+ }
+
 
 
 
